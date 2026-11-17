@@ -1,0 +1,11 @@
+{
+  "name": "devops-lab6",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "build": "mkdir -p dist && echo \"build ok\" > dist/result.txt"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
